@@ -1,0 +1,58 @@
+body{
+    min-height: 100%;
+}
+
+body header{
+    width: 90%;
+    min-height: 100px;
+    margin: auto;
+}
+
+body > div{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 90%;
+    height: 60%;
+    margin: auto;
+}
+
+body > footer{
+    width: 90%;
+    min-height: 100px;
+    margin: auto;
+}
+
+#choosePseudo{
+    display: none;
+}
+
+#contentChat{
+    /*display: none;*/
+}
+
+#contentChat > div{
+    width: 40%;
+    height: 95%;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 8px;
+}
+
+#contentChat > div > div{
+    width: 90%;
+    height: 84%;
+    margin: auto;
+   display: block;
+}
+
+#contentChat > div > div[name=viewMessage]{
+    overflow-y: scroll;
+}
+
+#contentChat > div form input[name=message]{
+    width: 80%;
+}
+
+#contentChat > div form input[name=sendMessage]{
+    width: 15%;
+}
